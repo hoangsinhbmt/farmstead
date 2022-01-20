@@ -417,6 +417,9 @@ font-family: 'Roboto', sans-serif;
     position: relative;
     overflow: hidden;
 }
+.gallery_items:hover{
+    cursor: pointer;
+}
 .gallery_items::after{
   content: "";
   position: absolute;
