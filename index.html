@@ -15,11 +15,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl-carousel -->
    <!-- main.css -->
    <link rel="stylesheet" href="main.css">
    <!-- main.css -->
 </head>
-  <body>
+  <body class="dark">
     <a href="#head">
       <div class="gototop">
         <i class="fas fa-level-up-alt"></i>
@@ -38,7 +42,7 @@
               <input type="text" id="searchbar" onfocus="this.value=''" placeholder="Search">
             </div>
            <div class="header_darkmode">
-            <a href="" onclick="darkmode()"><i class="far fa-moon"></i></a>
+            <button onclick="darkmode()"><i class="far fa-moon"></i></button>
            </div>
            <div class="btn-group">
             <button type="button" class="btn btn-secondary dropdown_btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -58,9 +62,9 @@
           </div>
         </div>
     </header>
-    <div class="carousel1" >
+    <div class="carousel1 bg-toi" >
       <div class="carousel1_contain">
-        <div class="carousel1_left">
+        <div class="carousel1_left bg-toi">
           <h1>Welcome to Farmstead <br>
             where Natural Food is born!</h1>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque <br> laudantium.</p>
@@ -88,7 +92,7 @@
         </div>
       </div>
     </div>
-    <div class="leaders">
+    <div class="leaders bg-toi">
       <div class="leaders_contain container">
         <div class="leaders_left">
           <h2>Grow Naturally</h2>
@@ -128,8 +132,8 @@
           </div>
         </div>
         <div class="choose_lower">
-          <div class="choose_cards">
-            <div class="card" >
+          <div class="choose_cards ">
+            <div class="card bg-toi" >
               <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/service1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="card_tag">Natural</div>
@@ -138,8 +142,8 @@
               </div>
             </div>
           </div>
-          <div class="choose_cards">
-            <div class="card">
+          <div class="choose_cards ">
+            <div class="card bg-toi">
               <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/service2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="card_tag">Agriculture</div>
@@ -148,8 +152,8 @@
               </div>
             </div>
           </div>
-          <div class="choose_cards">
-            <div class="card">
+          <div class="choose_cards ">
+            <div class="card bg-toi">
               <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/service3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <div class="card_tag">Farm</div>
@@ -161,7 +165,7 @@
         </div>
       </div>
     </div>
-    <div class="quality">
+    <div class="quality bg-toi">
       <div class="quality_contain container">
         <div class="quality_left">
           <h2>Why choose us</h2>
@@ -187,7 +191,7 @@
         </div>
       </div>
     </div>
-    <div class="feature">
+    <div class="feature bg-toi">
       <div class="feature_contain container">
         <div class="feature_items">
          <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/img5.png" alt="">
@@ -245,7 +249,7 @@
         </div>
       </div>
     </div>
-    <div class="gallery">
+    <div class="gallery bg-toi">
       <div class="gallery_contain container" id="animated-thumbnails">
         <div class="gallery_items item1">
           <h2>Gallery</h2>
@@ -311,6 +315,85 @@
 </div>
       </div>
     </div>
+    <div class="carousel2">
+      <div class="carousel2_contain container">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="item_left">
+        <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/testi1.jpg" alt="">
+        <h3>Dennis Wilson</h3>
+        <p>customer</p>
+            </div>
+           <div class="item_right">
+        <p>
+          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia atque, libero nemo qui voluptas error est necessitatibus iure. Voluptate illum totam unde praesentium debitis numquam iure labore quisquam eveniet culpa."
+        </p>
+           </div>
+          </div>
+          <div class="item">
+            <div class="item_left">
+              <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/testi2.jpg" alt="">
+              <h3>Dennis Wilson</h3>
+              <p>customer</p>
+                  </div>
+                 <div class="item_right">
+              <p>
+                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia atque, libero nemo qui voluptas error est necessitatibus iure. Voluptate illum totam unde praesentium debitis numquam iure labore quisquam eveniet culpa."
+              </p>
+                 </div>
+          </div>
+          <div class="item">
+            <div class="item_left">
+              <img src="https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/testi3.jpg" alt="">
+              <h3>Dennis Wilson</h3>
+              <p>customer</p>
+                  </div>
+                 <div class="item_right">
+              <p>
+                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia atque, libero nemo qui voluptas error est necessitatibus iure. Voluptate illum totam unde praesentium debitis numquam iure labore quisquam eveniet culpa."
+              </p>
+                 </div>
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class="footer bg-toi">
+  <div class="footer_contain container">
+    <div class="footer_item footer1">
+    <h5>FIND US</h5>
+    <p style="margin-top: 50px;">Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
+    <p>Phone: +12 23456790</p>
+    <p>Email: info@example.com</p>
+    <p>Fax: + 11 367 21890</p>
+    </div>
+    <div class="footer_item footer2">
+      <div class="header_title">
+        <a href=""><h2>
+          Farmstead
+        </h2></a>
+      </div>
+      <p style="margin-top: 50px;">Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.</p>
+      <p style="margin-top: 50px;">© 2022 Farmstead. All Rights Reserved | WordPress Theme by <a href="https://w3layouts.com/" style="color: #009f4d;">W3Layouts</a>.</p>
+    </div>
+    <div class="footer_item footer3">
+      <h5>NEWSLETTER</h5>
+      <p style="margin-top: 50px;">Subscribe to our mailing list and get updates to your email inbox.</p>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control bg-toi" placeholder="Email Address" aria-label="Email Address" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary" type="button"><i class="fas fa-paper-plane"></i></button>
+        </div>
+      </div>
+      <div class="logo">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-linkedin-in"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-google-plus-g"></i></a>
+        <a href=""><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -338,6 +421,9 @@
      });
      </script>
      <!-- light gallery -->
+     <!-- owl carousel -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <!-- owl carousel -->
     <script src="main.js"></script>  
 </body>
 </html>

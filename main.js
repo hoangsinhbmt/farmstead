@@ -13,5 +13,13 @@ $(function() {
     });
 });
 function darkmode() {
-
+    document.querySelector("body").classList.toggle("dark");
  }
+
+
+ $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    items:1,
+})
